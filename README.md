@@ -28,6 +28,7 @@ GTKWave
 
 
 📌 **How the Project Works:**
+
 The system uses a clock signal as the main input. A clock divider generates a slower tick signal, which is used to update the clock, stopwatch, and countdown timer.
 
 The mode signal selects which function is shown on the display.
@@ -82,7 +83,7 @@ Alarm Time = 07:30
 
 When both match, the alarm signal becomes 1.
 
-Waveform Explanation
+Waveform Explanation:
 
 The waveform shows:
 
