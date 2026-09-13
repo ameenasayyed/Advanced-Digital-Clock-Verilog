@@ -17,6 +17,7 @@ The project includes:
 ⚡ Clock Divider
 
 🛠️**Tools Used:**
+
 Vivado
 
 VS Code
