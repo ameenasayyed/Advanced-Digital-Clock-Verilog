@@ -97,7 +97,7 @@ When the times match, the alarm signal becomes active.
 
 📷 Alarm Waveform
 
-![dc alarm Waveform](images/dc_alarm_waveform.png)
+![dc alarm Waveform](dc_alarm_waveform.png)
 
 ## ⏱️ **Stopwatch:**
 
@@ -127,7 +127,7 @@ sw_hour → hours
 
 📷 Stopwatch Waveform
 
-![dc stopwatch Waveform](images/dc_stopwatch_waveform.png)
+![dc stopwatch Waveform](dc_stopwatch_waveform.png)
 
 ## ⏳ **Countdown Timer:**
 
@@ -159,7 +159,7 @@ done → indicates that countdown is finished
 
 📷 Countdown Waveform
 
-![dc countdown Waveform](images/dc_countdown_waveform.png)
+![dc countdown Waveform](dc_countdown_waveform.png)
 
 ##🔄 **Mode Selection:**
 
@@ -187,7 +187,7 @@ This makes the timing of all three modules easier to control.
 
 📷 Clock Divider Waveform
 
-![dc clock divider Waveform](images/dc_clock_divider_waveform.png)
+![dc clock divider Waveform](dc_clock_divider_waveform.png)
 
 ## 🧪 **Simulation:**
 
