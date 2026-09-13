@@ -1,4 +1,4 @@
-🕒 Advanced Digital Clock System using Verilog
+🕒 **Advanced Digital Clock System using Verilog**
 
 This project is a Digital Clock System designed using Verilog HDL and simulated using Icarus Verilog and GTKWave.
 
@@ -11,22 +11,23 @@ The project includes:
 🔄 Mode Selection
 ⚡ Clock Divider
 
-🛠️ Tools Used:
+🛠️**Tools Used:**
 Vivado
 VS Code
 Icarus Verilog
 GTKWave
-📌 How the Project Works:
 
+📌 **How the Project Works:**
 The system uses a clock signal as the main input. A clock divider generates a slower tick signal, which is used to update the clock, stopwatch, and countdown timer.
 
 The mode signal selects which function is shown on the display.
 
-Mode	Function
+Mode	Function:
 00	Digital Clock
 01	Stopwatch
 10	Countdown
-🕒 Digital Clock
+
+🕒**Digital Clock:**
 
 The digital clock keeps track of:
 
@@ -52,7 +53,7 @@ Add your screenshot here:
 
 ![Digital Clock Waveform](images/dc_clock_waveform.png)
 
-🔔 Alarm
+🔔 **Alarm:**
 
 The alarm compares the current clock time with the alarm time that we set.
 
@@ -79,7 +80,7 @@ When the times match, the alarm signal becomes active.
 
 ![Alarm Waveform](images/dc_alarm_waveform.png)
 
-⏱️ Stopwatch
+⏱️ **Stopwatch:**
 
 The stopwatch measures elapsed time.
 
@@ -105,7 +106,7 @@ sw_hour → hours
 
 ![Stopwatch Waveform](images/dc_stopwatch_waveform.png)
 
-⏳ Countdown Timer
+⏳ **Countdown Timer:**
 
 The countdown timer starts from a value that we load.
 
@@ -133,7 +134,7 @@ done → indicates that countdown is finished
 
 ![Countdown Waveform](images/dc_countdown_waveform.png)
 
-🔄 Mode Selection
+🔄 **Mode Selection:**
 
 The mode signal selects what is displayed.
 
@@ -141,7 +142,7 @@ mode = 00 → Digital Clock
 mode = 01 → Stopwatch
 mode = 10 → Countdown
 
-⚡ Clock Divider
+⚡ **Clock Divider:**
 
 The clock divider generates the tick signal from the main clock.
 
@@ -157,7 +158,8 @@ This makes the timing of all three modules easier to control.
 
 ![Clock Divider Waveform](images/dc_clock_divider_waveform.png)
 
-🧪 Simulation
+🧪 **
+**Simulation:**
 
 I used a Verilog testbench to test the complete system.
 
@@ -172,24 +174,44 @@ Mode selection
 
 The signals were observed using GTKWave.
 
-📚 What I Learned
+🎯 **Learning Outcomes:**
 
-Through this project, I learned about:
+Through this project, I gained practical experience in:
 
-Verilog modules
-Sequential logic
-Counters
-Clock dividers
-Control signals
-always blocks
-Testbenches
-Simulation
-Debugging using GTKWave
-Reading and understanding digital waveforms
+Verilog HDL coding
+RTL design
+Modular design
+Counters and clock division
+Finite-state/control logic
+Testbench development
+Simulation and waveform analysis
+Debugging Verilog designs
+Using GTKWave for signal verification
+GitHub project documentation
+**🧩 Project Architecture:**
 
-🚀 Project Outcome:
+The project is divided into multiple Verilog modules:
+
+Advanced Digital Clock
+│
+├── dc_clock_divider.v
+├── digital_clk.v
+├── dc_alarm.v
+├── dc_stopwatch.v
+├── dc_countdown.v
+├── dc_digital_clk_top.v
+└── dc_tb.v
+
 
 This project helped me understand how different digital modules can be combined into one system and how waveforms can be used to verify whether the hardware logic is working correctly.
 
 Designed in Verilog. Simulated in Icarus Verilog. Debugged in GTKWave. 💻⚡
+
+👩‍💻 **Author:**
+
+Munthaj Ameena Sayyed
+
+Electrical Engineering Student
+Aspiring Digital RTL Design & Verification Engineer
+
 
