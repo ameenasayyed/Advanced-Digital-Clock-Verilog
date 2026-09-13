@@ -65,7 +65,7 @@ clock_sec → second value
 
 When a tick occurs, the seconds increase. When seconds reach 59, they return to 00 and the minute increases.
 
-📷 Digital Clock Waveform
+📷**Digital Clock Waveform:**
 
 ![dc clock Waveform](dc_clock_waveform.png)
 
@@ -95,7 +95,7 @@ alarm
 
 When the times match, the alarm signal becomes active.
 
-📷 Alarm Waveform
+📷 **Alarm Waveform:**
 
 ![dc alarm Waveform](dc_alarm_waveform.png)
 
@@ -125,7 +125,7 @@ sw_min → minutes
 
 sw_hour → hours
 
-📷 Stopwatch Waveform
+📷 **Stopwatch Waveform:**
 
 ![dc stopwatch Waveform](dc_stopwatch_waveform.png)
 
@@ -157,11 +157,11 @@ cd_sec → countdown seconds
 
 done → indicates that countdown is finished
 
-📷 Countdown Waveform
+📷 **Countdown Waveform:**
 
 ![dc countdown](dc_countdown.png)
 
-##🔄 **Mode Selection:**
+## 🔄 **Mode Selection:**
 
 The mode signal selects what is displayed.
 
@@ -185,7 +185,7 @@ Countdown Timer
 
 This makes the timing of all three modules easier to control.
 
-📷 Clock Divider Waveform
+📷 **Clock Divider Waveform:**
 
 ![dc clock divider Waveform](dc_clock_divider_waveform.png)
 
