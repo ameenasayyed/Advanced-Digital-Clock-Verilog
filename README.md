@@ -1,4 +1,4 @@
-🕒 **Advanced Digital Clock System using Verilog:**
+##🕒 **Advanced Digital Clock System using Verilog:**
 
 This project is a Digital Clock System designed using Verilog HDL and simulated using Icarus Verilog and GTKWave.
 
@@ -66,8 +66,6 @@ clock_sec → second value
 When a tick occurs, the seconds increase. When seconds reach 59, they return to 00 and the minute increases.
 
 📷 Digital Clock Waveform
-
-Add your screenshot here:
 
 ![Digital Clock Waveform](images/dc_clock_waveform.png)
 
