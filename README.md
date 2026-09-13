@@ -18,9 +18,13 @@ The project includes:
 
 🛠️**Tools Used:**
 Vivado
+
 VS Code
+
 Icarus Verilog
+
 GTKWave
+
 
 📌 **How the Project Works:**
 The system uses a clock signal as the main input. A clock divider generates a slower tick signal, which is used to update the clock, stopwatch, and countdown timer.
@@ -28,8 +32,11 @@ The system uses a clock signal as the main input. A clock divider generates a sl
 The mode signal selects which function is shown on the display.
 
 Mode	Function:
+
 00	Digital Clock
+
 01	Stopwatch
+
 10	Countdown
 
 🕒**Digital Clock:**
@@ -45,9 +52,13 @@ Waveform Explanation:
 In GTKWave:
 
 clk → main clock signal
+
 tick → tells the clock when to update
+
 clock_hour → hour value
+
 clock_min → minute value
+
 clock_sec → second value
 
 When a tick occurs, the seconds increase. When seconds reach 59, they return to 00 and the minute increases.
@@ -75,8 +86,11 @@ Waveform Explanation
 The waveform shows:
 
 Current hour and minute
+
 Set alarm hour and minute
+
 alarm_enable
+
 alarm
 
 When the times match, the alarm signal becomes active.
@@ -102,9 +116,13 @@ Waveform Explanation
 In the waveform:
 
 start_stop = 1 → stopwatch starts/stops
+
 tick → timing signal
+
 sw_sec → seconds
+
 sw_min → minutes
+
 sw_hour → hours
 
 📷 Stopwatch Waveform
@@ -130,9 +148,13 @@ Waveform Explanation
 The important signals are:
 
 load → loads the starting time
+
 start → starts/stops the countdown
+
 tick → decreases the timer
+
 cd_sec → countdown seconds
+
 done → indicates that countdown is finished
 
 📷 Countdown Waveform
@@ -144,7 +166,9 @@ done → indicates that countdown is finished
 The mode signal selects what is displayed.
 
 mode = 00 → Digital Clock
+
 mode = 01 → Stopwatch
+
 mode = 10 → Countdown
 
 ⚡ **Clock Divider:**
@@ -154,7 +178,9 @@ The clock divider generates the tick signal from the main clock.
 The tick signal is then used by:
 
 Digital Clock
+
 Stopwatch
+
 Countdown Timer
 
 This makes the timing of all three modules easier to control.
@@ -163,18 +189,22 @@ This makes the timing of all three modules easier to control.
 
 ![Clock Divider Waveform](images/dc_clock_divider_waveform.png)
 
-🧪 **
-**Simulation:**
+🧪 **Simulation:**
 
 I used a Verilog testbench to test the complete system.
 
 The testbench checks:
 
 Digital clock setting
+
 Alarm setting
+
 Stopwatch start/stop
+
 Countdown loading
+
 Countdown start
+
 Mode selection
 
 The signals were observed using GTKWave.
@@ -184,15 +214,25 @@ The signals were observed using GTKWave.
 Through this project, I gained practical experience in:
 
 Verilog HDL coding
+
 RTL design
+
 Modular design
+
 Counters and clock division
+
 Finite-state/control logic
+
 Testbench development
+
 Simulation and waveform analysis
+
 Debugging Verilog designs
+
 Using GTKWave for signal verification
+
 GitHub project documentation
+
 **🧩 Project Architecture:**
 
 The project is divided into multiple Verilog modules:
@@ -200,11 +240,17 @@ The project is divided into multiple Verilog modules:
 Advanced Digital Clock
 │
 ├── dc_clock_divider.v
+
 ├── digital_clk.v
+
 ├── dc_alarm.v
+
 ├── dc_stopwatch.v
+
 ├── dc_countdown.v
+
 ├── dc_digital_clk_top.v
+
 └── dc_tb.v
 
 
@@ -217,6 +263,7 @@ Designed in Verilog. Simulated in Icarus Verilog. Debugged in GTKWave. 💻⚡
 Munthaj Ameena Sayyed
 
 Electrical Engineering Student
+
 Aspiring Digital RTL Design & Verification Engineer
 
 
