@@ -41,7 +41,7 @@ Mode	Function:
 
 10	Countdown
 
-🕒**Digital Clock:**
+## 🕒**Digital Clock:**
 
 The digital clock keeps track of:
 
@@ -67,9 +67,9 @@ When a tick occurs, the seconds increase. When seconds reach 59, they return to 
 
 📷 Digital Clock Waveform
 
-![Digital Clock Waveform](images/dc_clock_waveform.png)
+![Digital Clock Waveform](dc_clock_waveform.png)
 
-🔔 **Alarm:**
+## 🔔 **Alarm:**
 
 The alarm compares the current clock time with the alarm time that we set.
 
@@ -99,7 +99,7 @@ When the times match, the alarm signal becomes active.
 
 ![Alarm Waveform](images/dc_alarm_waveform.png)
 
-⏱️ **Stopwatch:**
+## ⏱️ **Stopwatch:**
 
 The stopwatch measures elapsed time.
 
@@ -129,7 +129,7 @@ sw_hour → hours
 
 ![Stopwatch Waveform](images/dc_stopwatch_waveform.png)
 
-⏳ **Countdown Timer:**
+## ⏳ **Countdown Timer:**
 
 The countdown timer starts from a value that we load.
 
@@ -161,7 +161,7 @@ done → indicates that countdown is finished
 
 ![Countdown Waveform](images/dc_countdown_waveform.png)
 
-🔄 **Mode Selection:**
+##🔄 **Mode Selection:**
 
 The mode signal selects what is displayed.
 
@@ -171,7 +171,7 @@ mode = 01 → Stopwatch
 
 mode = 10 → Countdown
 
-⚡ **Clock Divider:**
+## ⚡**Clock Divider:**
 
 The clock divider generates the tick signal from the main clock.
 
@@ -189,7 +189,7 @@ This makes the timing of all three modules easier to control.
 
 ![Clock Divider Waveform](images/dc_clock_divider_waveform.png)
 
-🧪 **Simulation:**
+## 🧪 **Simulation:**
 
 I used a Verilog testbench to test the complete system.
 
@@ -209,7 +209,7 @@ Mode selection
 
 The signals were observed using GTKWave.
 
-🎯 **Learning Outcomes:**
+## 🎯 **Learning Outcomes:**
 
 Through this project, I gained practical experience in:
 
@@ -233,7 +233,7 @@ Using GTKWave for signal verification
 
 GitHub project documentation
 
-**🧩 Project Architecture:**
+## **🧩 Project Architecture:**
 
 The project is divided into multiple Verilog modules:
 
@@ -258,7 +258,7 @@ This project helped me understand how different digital modules can be combined 
 
 Designed in Verilog. Simulated in Icarus Verilog. Debugged in GTKWave. 💻⚡
 
-👩‍💻 **Author:**
+## 👩‍💻 **Author:**
 
 Munthaj Ameena Sayyed
 
