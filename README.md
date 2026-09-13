@@ -1,4 +1,4 @@
-##🕒 **Advanced Digital Clock System using Verilog:**
+# 🕒 **Advanced Digital Clock System using Verilog:**
 
 This project is a Digital Clock System designed using Verilog HDL and simulated using Icarus Verilog and GTKWave.
 
@@ -16,7 +16,7 @@ The project includes:
 
 ⚡ Clock Divider
 
-🛠️**Tools Used:**
+## 🛠️**Tools Used:**
 
 Vivado
 
@@ -27,7 +27,7 @@ Icarus Verilog
 GTKWave
 
 
-📌 **How the Project Works:**
+## 📌 **How the Project Works:**
 
 The system uses a clock signal as the main input. A clock divider generates a slower tick signal, which is used to update the clock, stopwatch, and countdown timer.
 
