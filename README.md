@@ -159,7 +159,7 @@ done → indicates that countdown is finished
 
 📷 Countdown Waveform
 
-![dc countdown Waveform](dc_countdown_waveform.png)
+![dc countdown](dc_countdown.png)
 
 ##🔄 **Mode Selection:**
 
