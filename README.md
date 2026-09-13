@@ -5,12 +5,15 @@ This project is a Digital Clock System designed using Verilog HDL and simulated 
 The project includes:
 
 🕒 Digital Clock
+
 ⏱️ Stopwatch
 
-
 ⏳ Countdown Timer
+
 🔔 Alarm
+
 🔄 Mode Selection
+
 ⚡ Clock Divider
 
 🛠️**Tools Used:**
