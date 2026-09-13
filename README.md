@@ -67,7 +67,7 @@ When a tick occurs, the seconds increase. When seconds reach 59, they return to 
 
 📷 Digital Clock Waveform
 
-![Digital Clock Waveform](dc_clock_waveform.png)
+![dc_clock Waveform](dc_clock_waveform.png)
 
 ## 🔔 **Alarm:**
 
