@@ -241,6 +241,7 @@ The project is divided into multiple Verilog modules:
 
 Advanced Digital Clock
 │
+
 ├── dc_clock_divider.v
 
 ├── digital_clk.v
