@@ -1,4 +1,4 @@
-🕒 **Advanced Digital Clock System using Verilog**
+🕒 **Advanced Digital Clock System using Verilog:**
 
 This project is a Digital Clock System designed using Verilog HDL and simulated using Icarus Verilog and GTKWave.
 
